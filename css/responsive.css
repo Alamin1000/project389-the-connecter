@@ -1,0 +1,331 @@
+
+
+@media (max-width: 1399px) {
+    .header-logo {
+        width: 170px;
+    }
+
+
+    .hero-content .h1 {
+        font-size: 34px;
+        margin-bottom: 16px;
+    }
+    .hero-content h3 {
+        font-size: 37px;
+    }
+    .hero-content__in-shape {
+        top: -100px;
+        width: 350px;
+    }
+    .hero-section {
+        padding: 65px 0;
+    }
+    .hero__super-app h4 {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .hero__super-app {
+        width: 550px;
+        margin-top: 22px;
+    }
+
+    .h2 {
+        font-size: 26px;
+    }
+    .sec-title {
+        margin-bottom: 25px;
+    }
+    .help-r-item .icon {
+        width: 45px;
+        margin-bottom: 12px;
+    }
+    .help-row {
+        --bs-gutter-x: 15px;
+    }
+    .help-r-item .content p {
+        font-size: 12px;
+    }
+    .help-r-item {
+        min-height: 250px;
+        padding: 50px 12px 0;
+    }
+    .help-section {
+        padding: 20px 0 60px;
+    }
+
+    .sing-sec-title-bg-shape {
+        top: -120px;
+        width: 200px;
+    }
+    .sign-section {
+        padding: 65px 0 50px;
+    }
+    .sign-card {
+        border-radius: 12px;
+        padding: 30px;
+    }
+    .sing-tab-nav ul li a .check {
+        height: 19px;
+        width: 19px;
+    }
+    .sing-tab-nav ul li a .txt {
+        font-size: 16px;
+    }
+    .sing-tab-nav ul li a {
+        gap: 15px;
+        padding: 23px 16px;
+        border-radius: 12px;
+    }
+    .sign-card::after {
+        top: 13px;
+        left: 12px;
+    }
+    .roadmap-item:first-child .dec-side .dec-number {
+        margin-left: -23px;
+    }
+    .sign-bg-glow {
+        width: 650px;
+        filter: blur(400px);
+    }
+    .send-sec-bottom {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .video__element {
+        height: 500px;
+        border-radius: 12px;
+    }
+    .video__element .video-button {
+        font-size: 34px;
+    }
+    .video-section {
+        padding: 50px 0;
+    }
+
+    .testimonial-section {
+        padding: 60px 0;
+    }
+    .testimonial-section__inner {
+        padding: 0 80px;
+    }
+
+    .roadmap-section {
+        padding: 50px 0;
+    }
+    .roadmap-item .dec-side .dec-number {
+        height: 46px;
+        width: 46px;
+        font-size: 16px;
+    }
+    .roadmap-item .content-side h4 .phase {
+        font-size: 20px;
+    }
+    .roadmap-item .content-side h4 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .roadmap-item .content-side h5 {
+        font-size: 13px;
+        margin-left: 8px;
+    }
+    .roadmap-item {
+        gap: 20px;
+    }
+    .roadmap-item .content-side {
+        padding-top: 12px;
+    }
+    .roadmap-item .dec-side {
+        padding-bottom: 65px;
+    }
+    .roadmap-item .dec-side::after {
+        height: 10px;
+        width: 10px;
+        top: 17px;
+    }
+    .roadmap-item .dec-side .dec-line {
+        width: calc((250px * var(--ri)));;
+    }
+
+    .footer-left {
+        gap: 30px;
+    }
+    .footer-menu ul {
+        gap: 30px;
+    }
+    .fs-menu ul li a {
+        width: 21px;
+    }
+    .fs-menu ul {
+        gap: 16px;
+    }
+    .footer-top {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+
+}
+
+
+@media (max-width: 1199px) {
+    .testimonial-section__inner {
+        padding: 0;
+    }
+    .testimonial-row {
+        --bs-gutter-x: 40px;
+    }
+
+    .roadmap-item .dec-side .dec-line {
+        width: calc((190px * var(--ri)));
+    }
+}
+
+
+@media (max-width: 991px) {
+    .help-section__inner {
+        max-width: 530px;
+        margin: 0 auto;
+    }
+
+    .sign-card {
+        margin: 0 auto;
+        max-width: 530px;
+    }
+
+    .video__element {
+        height: 400px;
+    }
+
+    .roadmap-item .dec-side .dec-line {
+        width: calc((110px * var(--ri)));
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-left {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero-content .h1 {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+    .hero-content h3 {
+        font-size: 24px;
+    }
+    .hero-content__in-shape {
+        top: -60px;
+        width: 200px;
+    }
+    .hero-section {
+        padding: 30px 0;
+    }
+    .hero__super-app h4 {
+        font-size: 13px;
+        margin-bottom: 9px;
+    }
+
+    .h2 {
+        font-size: 20px;
+    }
+
+    .help-r-item {
+        min-height: 200px;
+        padding: 35px 12px 0;
+    }
+    .sec-title {
+        margin-bottom: 20px;
+    }
+    .help-section {
+        padding: 20px 0 30px;
+    }
+
+    .sing-sec-title-bg-shape {
+        top: -60px;
+        width: 120px;
+    }
+    .sign-section {
+        padding: 50px 0 40px;
+    }
+    .sing-tab-nav ul li a .txt {
+        font-size: 13px;
+    }
+    .sing-tab-nav ul li a {
+        gap: 15px;
+        padding: 12px 12px;
+        border-radius: 10px;
+    }
+    .sign-card {
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .video__element {
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .testimonial-section {
+        padding: 40px 0;
+    }
+    .roadmap-item .dec-side .dec-line {
+        width: calc((0px * var(--ri)));
+    }
+
+    .roadmap-item .dec-side .dec-number {
+        margin-left: -23px;
+    }
+}
+
+
+@media (max-width: 575px) {
+ 
+}
+
+
+@media (max-width: 390px) {
+    .hero-content .h1 {
+        font-size: 27px;
+        margin-bottom: 12px;
+    }
+    .hero-content h3 {
+        font-size: 20px;
+    }
+
+    .h2 {
+        font-size: 18px;
+    }
+    .help-r-item {
+        min-height: 160px;
+        padding: 25px 12px 0;
+    }
+
+    .video__element {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .roadmap-section__inner {
+        padding-left: 18px;
+    }
+    .roadmap-item {
+        gap: 10px;
+    }
+    .roadmap-item .content-side h4 .phase {
+        font-size: 18px;
+    }
+    .roadmap-item .dec-side {
+        padding-bottom: 40px;
+    }
+    .footer-menu ul {
+        gap: 20px;
+    }
+}
