@@ -272,6 +272,27 @@ p:last-child{
 	left: 50%;
 	transform: translate(-50%,0);
   z-index: 1;
+  z-index: -1;
+}
+
+.sign-progress-dots {
+  gap: 16px;
+  margin-top: 25px;
+  display: flex;
+}
+.sign-progress-dots button {
+  height: 7px;
+  width: 7px;
+  border: none;
+  border-radius: 40px;
+  background: #696969;
+  transition: 0.3s;
+  display: block;
+  padding: 0;
+}
+.sign-progress-dots button.active {
+  background: #D2C480;
+  width: 50px;
 }
 
 
